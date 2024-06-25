@@ -1,0 +1,30 @@
+# Basic Libraries
+numpy==1.21.2
+pandas==1.3.3
+scikit-learn==0.24.2
+
+# Natural Language Processing
+nltk==3.6.3
+spacy==3.1.2
+transformers==4.9.2
+
+# Deep Learning Frameworks
+torch==1.9.0
+tensorflow==2.6.0
+
+# Hugging Face Transformers
+datasets==1.11.0
+tokenizers==0.10.3
+
+# Flask for Web Server
+flask==2.0.1
+
+# Utilities
+requests==2.26.0
+beautifulsoup4==4.9.3
+
+# For deployment and serving the model
+gunicorn==20.1.0
+
+# Spacy language model (use spacy CLI to download)
+# !python -m spacy download en_core_web_sm
