@@ -1,17 +1,17 @@
-# Local Multimodal AI Chat: WaterBits-chatbot
+# Local Multimodal AI Chat: local-multimodal-chatbots-chatbot
 
-Local Multimodal AI Chat is a practical project aimed at developing a versatile chatbot platform capable of integrating various AI models for handling text, voice, and image inputs within a single interface. This project serves as a foundational exploration into AI-driven solutions tailored for local communities, with a specific focus on enhancing the functionality and engagement of the WaterBits project.
+Local Multimodal AI Chat is a practical project aimed at developing a versatile chatbot platform capable of integrating various AI models for handling text, voice, and image inputs within a single interface. This project serves as a foundational exploration into AI-driven solutions tailored for local communities, with a specific focus on enhancing the functionality and engagement of the local-multimodal-chatbots project.
 
 #Project Purpose
 The primary goal of this endeavor is to use the Local Multimodal AI Chat project to test hypotheses related to enhancing user interactions. I also decided to build this chatbot to test out a project my friends and i are working on which focuses on addressing Sustainable Development Goal 6 (SDG 6) – clean water and sanitation. My aim with this chatbot project is to experiment with advanced AI capabilities and their potential impact on SDG 6.
 
 # Getting Started
-To get started with the Local Multimodal AI Chat for WaterBits, follow these steps:
+To get started with the Local Multimodal AI Chat for local-multimodal-chatbots, follow these steps:
 ### 1. Clone the repository: I am using Python 3.12 currently
 Clone the repository to your local machine:
 ```bash
 git clone <water-bits>
-cd waterbits
+cd local-multimodal-chatbots
 ```
 
 ### 2. Install Poetry ( i am using poetry instead of pip)
