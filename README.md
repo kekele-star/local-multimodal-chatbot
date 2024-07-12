@@ -1,4 +1,4 @@
-# Local Multimodal AI Chat: waterbits-chatbot
+# Local Multimodal AI Chat: WaterBits-chatbot
 
 In this repo, i will build a chatbot in Dialogflow for WaterBits.
 It will be an end-to-end project covering Dialogflow basics, building a backend in python and Fastapi, interactions with MySQL database, and much more.
