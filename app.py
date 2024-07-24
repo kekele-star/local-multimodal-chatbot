@@ -1,6 +1,6 @@
 # import streamlit
 import streamlit as st
-
+from llm_chains import load_chain
 
 def load_chain():
     return load_normal_chain()
