@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "local-multimodal-chatbot"
+version = "0.1.0"
+description = "\"In this repo, i will build a chatbot in Dialogflow for WaterBits. It will be an end-to-end project covering Dialogflow basics, building a backend in python and Fastapi, interactions with MySQL database, and much more. I include Dialogflow fundamentals such as intents, entities, contexts, etc in this project.\","
+authors = ["Kekele <esinamdemanya@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit-mic-recorder = "^0.0.8"
+instructorembedding = "^1.0.1"
+ctransformers = "^0.2.27"
+transformers = "^4.43.2"
+langchain = "^0.2.11"
+streamlit = "^1.36.0"
+pypdfium2 = "^4.30.0"
+librosa = "^0.10.2.post1"
+pyyaml = "^6.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pyright]
+include = ["src"]
+exclude = [
+    "**/__pycache__"
+]
+defineConstant = { DEBUG = true }
+reportMissingImports = true
+reportMissingTypeStubs = false
